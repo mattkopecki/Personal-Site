@@ -16,7 +16,7 @@ h1 {
 	font-size: 3.2em;
 	text-transform: uppercase;
 	font-weight: 400;
-	letter-spacing:-2px
+	letter-spacing:-1px
 }
 
 h2 {
@@ -81,10 +81,10 @@ a:hover {
 }
 
 .centerContainer {
-	width:400px;
+	width:300px;
     height:70px;
 	position:absolute;
     left:50%;
-    top:50%;
-    margin:-35px 0 0 -200px;
+    top:20%;
+    margin:-35px 0 0 -150px;
 }

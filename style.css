@@ -65,6 +65,7 @@ a:hover {
 }
 
 #splash {
+	z-index: 999;
 	background: #FFFFFF;
     color: #000000;
     padding:10px;
@@ -86,7 +87,7 @@ a:hover {
 }
 
 #content {
-	display: none;
+	/*display: none;*/
 	background: #FFFFFF;
     color: #000000;
     padding:10px;

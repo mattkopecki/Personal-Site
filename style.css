@@ -107,3 +107,9 @@ a:hover {
     top:50%;
     margin:-100px 0 0 -250px;
 }
+
+#footer {
+	position:absolute;
+	width:100%;
+	border-bottom:20px solid red;
+}

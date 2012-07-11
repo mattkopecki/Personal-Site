@@ -76,15 +76,33 @@ a:hover {
     margin:-150px 0 0 -300px;
 }
 
-#content {
-   display: none;
-}
-
-.centerContainer {
+.splashContainer {
 	width:300px;
     height:70px;
 	position:absolute;
     left:50%;
     top:20%;
     margin:-35px 0 0 -150px;
+}
+
+#content {
+	display: none;
+	background: #FFFFFF;
+    color: #000000;
+    padding:10px;
+    width:600px;
+    height:300px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-150px 0 0 -300px;
+}
+
+.contentContainer {
+	width:500px;
+    height:200px;
+	position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -250px;
 }

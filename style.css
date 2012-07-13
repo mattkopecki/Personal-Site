@@ -1,7 +1,12 @@
+html {
+   min-height: 100%;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background: white;
+	background-color:#ffffff;
+	background-image: radial-gradient(50% 50%, ellipse cover, #ffffff, #ffffff 65%,#000000 100%);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }

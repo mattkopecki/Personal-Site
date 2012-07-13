@@ -4,8 +4,13 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 	background-color:#ffffff;
+	background-image: -moz-radial-gradient(50% 50%, ellipse cover, #ffffff, #ffffff 65%,#000000 100%);
+	background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #ffffff, #ffffff 65%,#000000 100%);
+	background-image: -o-radial-gradient(50% 50%, ellipse cover, #ffffff, #ffffff 65%,#000000 100%);
+	background-image: -ms-radial-gradient(50% 50%, ellipse cover, #ffffff, #ffffff 65%,#000000 100%);
 	background-image: radial-gradient(50% 50%, ellipse cover, #ffffff, #ffffff 65%,#000000 100%);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;

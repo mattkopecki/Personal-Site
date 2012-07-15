@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-	background-color:#ffffff;
+	background-color:#FFFFFF;
 	font-size: 14px;
 }
 
@@ -78,7 +78,7 @@ a:hover {
     position:absolute;
     left:50%;
     top:50%;
-    /*margin:-150px 0 0 -300px;*/
+    margin:-150px 0 0 -300px;
 }
 
 .splashContainer {
@@ -92,7 +92,7 @@ a:hover {
 
 #content {
 	display: none;
-	background: transparent;
+	background: #FFFFFF;
     color: #000000;
     padding:10px;
     width:600px;

@@ -47,13 +47,13 @@ p, ul, ol {
 
 ul {
 	list-style: square outside none;
-	margin-left: 10px;
+	margin-left: 30px;
 	padding: 0;
 }
 
 li {
-	background-color: white;
-	margin: 10px;
+	background: none;
+	/*margin: 10px;*/
 }
 
 li:hover {
@@ -114,4 +114,19 @@ a:hover {
 	bottom:0;
 	width:100%;
 	border-bottom:40px solid black;
+}
+
+#footer:before {
+    content:'';
+    position:relative;
+	top: 10px;
+    height: 20px;
+    width: 920px;
+    background:linear-gradient(top, white, transparent); /* standard CSS3 */
+    background:-o-linear-gradient(top, white, transparent); /* Opera */
+    background:-moz-linear-gradient(top, white, rgba(255, 255, 255, 0)); /* Firefox */
+    background:-ms-linear-gradient(top, white, transparent); /* IE 10 */
+    background:-webkit-linear-gradient(top, white, rgba(255, 255, 255, 0)); /* New Webkit */
+    background:-webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 0, 0, 0))); /* Old Webkit */
+    z-index: 999;
 }

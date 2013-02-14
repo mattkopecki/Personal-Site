@@ -52,14 +52,14 @@ p, ul, ol {
 }
 
 ul {
-	list-style-type: none;
-	margin-left: 0;
+	list-style-type: square outside none;
+	margin-left: 10px;
 	padding: 0;
 }
 
 li {
 	background-color: white;
-	margin: 10px auto;
+	margin: 10px;
 }
 
 li:hover {

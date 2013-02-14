@@ -116,7 +116,7 @@ a:hover {
 }
 
 #footer {
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	width:100%;
 	border-bottom:40px solid black;

@@ -121,7 +121,7 @@ a:hover {
     position:relative;
 	top: 10px;
     height: 20px;
-    width: 920px;
+    width: 100%;
     background:linear-gradient(top, white, transparent); /* standard CSS3 */
     background:-o-linear-gradient(top, white, transparent); /* Opera */
     background:-moz-linear-gradient(top, white, rgba(255, 255, 255, 0)); /* Firefox */
@@ -129,4 +129,19 @@ a:hover {
     background:-webkit-linear-gradient(top, white, rgba(255, 255, 255, 0)); /* New Webkit */
     background:-webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 0, 0, 0))); /* Old Webkit */
     z-index: 999;
+}
+
+#footer:after {
+	content:'';
+	position:fixed;
+	bottom: 10px;
+	height: 20px;
+	width: 100%;
+	background: linear-gradient(bottom, white, transparent);
+	background:-o-linear-gradient(bottom, white, transparent);
+	background:-ms-linear-gradient(bottom, white, transparent);
+	background:-moz-linear-gradient(bottom, white, rgba(255, 255, 255, 0));
+	background:-webkit-linear-gradient(bottom, white, transparent);
+	background:-webkit-gradient(linear, left bottom, left top, from(white), to(rgba(255, 255, 255, 0)));
+	z-index: 999;
 }

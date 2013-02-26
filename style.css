@@ -109,6 +109,29 @@ a:hover {
     margin:-100px 0 0 -250px;
 }
 
+#wrap {
+	width:800px;
+	margin:0 auto;
+}
+
+#top {
+	width:100%;
+}
+
+#leftcol {
+	float:left;
+	width:400px;
+}
+
+#rightcol {
+	float:right;
+	width:400px;
+}
+
+#bottom{
+	width:100%;
+}
+
 #footer {
 	position:fixed;
 	bottom:0;

@@ -110,8 +110,9 @@ a:hover {
 }
 
 #wrap {
-	width:800px;
+	width:1050px;
 	margin:0 auto;
+	padding:0 50px;
 }
 
 #top {
@@ -120,12 +121,12 @@ a:hover {
 
 #leftcol {
 	float:left;
-	width:400px;
+	width:500px;
 }
 
 #rightcol {
 	float:right;
-	width:400px;
+	width:500px;
 }
 
 #bottom{

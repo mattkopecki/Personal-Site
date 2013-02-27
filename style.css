@@ -64,7 +64,7 @@ a {
 	text-decoration: none;
 }
 
-a:link {color:#606060;}      /* unvisited link */
+a:link {color:#66CCFF;}      /* unvisited link */
 a:visited {color:#9966FF;}  /* visited link */
 a:hover {color:#66CCFF;}  /* mouse over link */
 

@@ -64,9 +64,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
+a:link {color:#606060;}      /* unvisited link */
+a:visited {color:#9966FF;}  /* visited link */
+a:hover {color:#66CCFF;}  /* mouse over link */
 
 #splash {
 	z-index: 999;
@@ -111,6 +111,7 @@ a:hover {
 
 #wrap {
 	width:1050px;
+	height:100%;
 	margin:0 auto;
 	padding:0 50px 60px 50px;
 }
@@ -154,4 +155,8 @@ a:hover {
 	background:-webkit-linear-gradient(bottom, white, transparent);
 	background:-webkit-gradient(linear, left bottom, left top, from(white), to(rgba(255, 255, 255, 0)));
 	z-index: 999;
+}
+
+.clear {
+	clear:both;
 }

@@ -131,6 +131,11 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 	width:500px;
 }
 
+#center {
+	margin: 0 auto;
+	text-align: center;
+}
+
 #bottom{
 	width:100%;
 }

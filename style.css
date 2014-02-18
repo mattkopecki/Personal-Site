@@ -73,11 +73,11 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 	background: #FFFFFF;
     color: #000000;
     width:900px;
-    height:300px;
+    height:100px;
     position:absolute;
     left:50%;
     top:40%;
-    margin:-150px 0 0 -450px;
+    margin:-50px 0 0 -450px;
 }
 
 .splashContainer {

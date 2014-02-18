@@ -72,12 +72,12 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 	z-index: 999;
 	background: #FFFFFF;
     color: #000000;
-    width:800px;
+    width:900px;
     height:300px;
     position:absolute;
     left:50%;
     top:50%;
-    margin:-150px 0 0 -400px;
+    margin:-150px 0 0 -450px;
 }
 
 .splashContainer {
@@ -92,21 +92,21 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 #content {
 	background: #FFFFFF;
     color: #000000;
-    width:800px;
+    width:900px;
     height:300px;
     position:absolute;
     left:50%;
     top:50%;
-    margin:-150px 0 0 -400px;
+    margin:-150px 0 0 -450px;
 }
 
 .contentContainer {
-	width:800px;
+	width:900px;
     height:200px;
 	position:absolute;
     left:50%;
-    top:30%;
-    margin:-100px 0 0 -400px;
+    top:50%;
+    margin:-100px 0 0 -450px;
 }
 
 #wrap {

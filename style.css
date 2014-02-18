@@ -101,12 +101,12 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 }
 
 .contentContainer {
-	width:500px;
+	width:600px;
     height:200px;
 	position:absolute;
     left:50%;
     top:30%;
-    margin:-100px 0 0 -250px;
+    margin:-100px 0 0 -300px;
 }
 
 #wrap {

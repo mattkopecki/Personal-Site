@@ -150,8 +150,8 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 #footer:after {
 	content:'';
 	position:fixed;
-	bottom: 40px;
-	height: 20px;
+	bottom: 24px;
+	height: 10px;
 	width: 100%;
 	background: linear-gradient(bottom, white, transparent);
 	background:-o-linear-gradient(bottom, white, transparent);

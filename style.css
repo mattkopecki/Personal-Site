@@ -144,7 +144,7 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 	position:fixed;
 	bottom:0;
 	width:100%;
-	border-bottom:40px solid black;
+	border-bottom:24px solid black;
 }
 
 #footer:after {

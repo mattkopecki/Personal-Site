@@ -131,6 +131,10 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 	width:500px;
 }
 
+#nav {
+	float:left;
+}
+
 #center {
 	margin: 0 auto;
 	text-align: center;

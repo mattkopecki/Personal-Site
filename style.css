@@ -133,6 +133,7 @@ a:hover {color:#66CCFF;}  /* mouse over link */
 
 #nav {
 	float:left;
+	padding: 10px 0 0 10px;
 }
 
 #center {

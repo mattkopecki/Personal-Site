@@ -100,6 +100,13 @@ a:hover {color:#66CCFF;}  /* mouse over link */
     margin:-150px 0 0 -450px;
 }
 
+#container {
+  width: 500px;
+  margin: auto;
+  position: relative;
+  text-align: left;
+}
+
 .contentContainer {
 	width:900px;
     height:200px;

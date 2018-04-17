@@ -22,7 +22,7 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Minimalist theme for Hugo"
+description = ""
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -33,8 +33,8 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "MunifTanjim"
-startYear = "2017"
+holder = "Matt Kopecki"
+startYear = "2018"
 suffix = ""
 
 [params.settings]
@@ -69,16 +69,11 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
+email = "mattkopecki@gmail.com"
 facebook = "MunifTanjim"
 github = "MunifTanjim"
-gitlab = "MunifTanjim"
 instagram = "MunifTanjim"
 linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
 
 [params.comments]
 enable = false

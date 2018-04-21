@@ -7,7 +7,7 @@ categories:
 tags:
   - hugo
   - web
-draft: true
+draft: false
 ---
 
 This post contains documentation for the setup of this blog. Hopefully this site will be so stable that I'll totally forget how I set it up when I come back years from now to make a change...

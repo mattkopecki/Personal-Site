@@ -39,13 +39,13 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
+dateFormat = "Jan 02, 2006"
+listDateFormat = "Jan 02, 2006"
 archiveDateFormat = "Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
 showReadingTime = true
 taxonomyCloudShuffle = true
-accentColor = "#ffcd00"
+accentColor = "#4286f4"
 hideMainMenu = false
 
 [params.sidebar]
@@ -70,10 +70,10 @@ titleSeparator = "•"
 
 [params.social]
 email = "mattkopecki@gmail.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
+facebook = "mattkopecki"
+github = "mattkopecki"
+instagram = "mattkopecki"
+linkedin = "mattkopecki"
 
 [params.comments]
 enable = false

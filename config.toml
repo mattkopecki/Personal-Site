@@ -30,6 +30,7 @@ favicon = "favicon.ico"
 customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+logo = ["/images/logo.png"]
 
 [params.copyright]
 prefix = ""
@@ -53,8 +54,22 @@ enable = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","taxonomy_cloud"]
+sidebar = ["about"]
 footer = ["social_menu"]
+
+[about]
+title = ""                            # default: .Site.Title
+description = ""                      # default: .Site.Params.info.description
+logo = "/images/logo.png"
+
+[recent_posts]
+title = ""                            # default: "Recent Posts"
+length = 10                           # default: 5
+excludeTypes = ["page"]               # default: ["page"]
+
+[sidebar_menu]
+title = ""                            # default: ""
+mirror = ""                           # default: ""
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs

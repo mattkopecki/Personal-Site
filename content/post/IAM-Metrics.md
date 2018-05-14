@@ -8,6 +8,12 @@ tags:
   - metrics
 draft: true
 ---
+What do I measure and how do I tie that to business outcomes?
+What should you measure, how should you use that info, how should you prioritize what to measure
+
+later on, it can be assumed that you're playing with a full deck and all your accounts etc. are covered. until you can make that 100% assumption though, it's useful to measure that percentage.
+
+Even after you get to 100%, counts are useful to illustrate growth, and then will also start to become inputs into more targeted metrics (average count per time or average count per user)
 
 Category: coverage --> deployment success, but also tied to risk reduction. Maybe link to KRIs, and link to other performance indicators
 * Account and Repository Coverage
@@ -30,3 +36,9 @@ Category: coverage --> deployment success, but also tied to risk reduction. Mayb
   - May be opportunities for further granularity:
     + Service accounts
     + Application-to-application accounts
+
+
+Number of reconciliation exceptions
+Separation of duty violations
+
+uncorrelated accounts

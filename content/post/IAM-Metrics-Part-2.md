@@ -9,6 +9,8 @@ tags:
 draft: true
 ---
 
+taking anything you can measure, and comparing it per month or per user, can be more instructive than just looking at raw counts.
+
 Category: Improving how we do business now - operational efficiency and also user experience
 * Effectiveness metrics:
   - Active identities with missing/multiple source records
@@ -27,6 +29,7 @@ Category: Improving how we do business now - operational efficiency and also use
   - Number of applications using IAM APIs
 * Efficiency:
   - Number of calls to password help desk.
+  - Password reset volume per month
   - Percent of access-related transactions fulfilled via policies instead of access requests.
 * Effectiveness:
   - Coverage and level of control over account repositories.
@@ -48,3 +51,12 @@ Category: Improving how we do business now - operational efficiency and also use
   - Segregation of duties (SOD) risks:
     + Active SOD risks (with and without mitigating controls)
     + Timeliness of remediation (by risk level)
+
+
+
+
+
+
+average time it takes to authorize a change
+
+number of exceptions per access re-certification cycle

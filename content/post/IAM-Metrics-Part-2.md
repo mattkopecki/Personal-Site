@@ -4,12 +4,15 @@ title: "IAM Metrics - Part 2"
 authors: []
 categories:
   - IAM
+  - Enterprise
 tags:
   - metrics
 draft: true
 ---
 
 taking anything you can measure, and comparing it per month or per user, can be more instructive than just looking at raw counts.
+
+KPIs
 
 Category: Improving how we do business now - operational efficiency and also user experience
 * Effectiveness metrics:
@@ -60,3 +63,12 @@ Category: Improving how we do business now - operational efficiency and also use
 average time it takes to authorize a change
 
 number of exceptions per access re-certification cycle
+
+
+
+### A Metric
+What should you measure
+How should you prioritize when to measure those things
+Technically, Where does that data come from (where and how - input)
+What is the buinsess balue of that metric (why)
+Tactically,

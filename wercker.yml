@@ -2,6 +2,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
+        theme: minimo
         flags: --buildDrafts=true
 deploy:
   steps:

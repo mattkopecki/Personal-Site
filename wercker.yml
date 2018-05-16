@@ -1,0 +1,14 @@
+box: debian
+build:
+  steps:
+    - arjen/hugo-build:
+        version: "0.17"
+        flags: --buildDrafts=true
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: mattkopecki.com
+        basedir: public

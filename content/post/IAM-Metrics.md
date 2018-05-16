@@ -56,4 +56,5 @@ Each IAM implementation will have slightly different user types, accounts, and t
   - Number of Separation of Duty violations
 
 ***Key Execution Detail:*** make sure you have at least *some* reporting requirements in your first IAM system release. Almost all packages come with some reports out-of-the-box, but you might be surprised what you *can’t get* without some customization. Make sure you've at least seen the list of OOTB reports, and hopefully even seen an example of each. A little foresight goes a long way towards making sure you have the right building blocks available from the get-go. However, don’t be afraid to combine reports outside of the IAM tool (e.g. in Excel) to get what you need. If you can get reports by identity, account, and target, you can get a long way with VLOOKUPs.
+
   - Example: Report listing Authoritative Identites + Report of Accounts by Identity = all accounts from a specific target which are linked to a human identity || identities with multiple accounts in a target || accounts without an authoritative identity || etc.

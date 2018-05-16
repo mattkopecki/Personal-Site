@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         theme: minimo
-        flags: --buildDrafts=true
+        flags: --buildDrafts=false
 deploy:
   steps:
     - install-packages:

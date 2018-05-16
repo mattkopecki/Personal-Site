@@ -12,4 +12,3 @@ deploy:
         token: $GIT_TOKEN
         domain: mattkopecki.com
         basedir: public
-        branch: master

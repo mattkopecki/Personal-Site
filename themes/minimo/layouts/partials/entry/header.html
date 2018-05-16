@@ -1,9 +1,11 @@
 <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
+      {{ if eq .Section "post"  }}
       <h1 class='title'>
         {{- .Title -}}
       </h1>
+      {{ end }}
       {{ partial "header/description" . }}
     </div>
     {{ partial "entry/meta" . }}

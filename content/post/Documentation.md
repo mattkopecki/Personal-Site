@@ -112,3 +112,7 @@ Commit any changes and then run the script to publish the site.
     git push origin source
     ./publish_to_master.sh
 
+
+
+----
+https://gohugo.io/hosting-and-deployment/deployment-with-wercker/

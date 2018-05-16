@@ -9,7 +9,7 @@ tags:
   - metrics
 draft: false
 ---
-## Preface - Should We Measure?
+#### Preface - Should We Measure?
 
 While there certainly is some value in listing and examining some of the top IAM metrics, as might be found in other resources, it can be difficult to know what to measure at which stage of your IAM implementation. 
 
@@ -20,7 +20,7 @@ So should you wait to start measuring your IAM program until later? No, there is
 This series isn't intended to create a comprehensive list of all IAM metrics, but will aim to at least lay a cohesive framework for how you can (and why you should) incorporate metrics into you IAM deployment at various stages of maturity.
 
 
-## Where Do We Start?
+#### Where Do We Start?
 *What do I measure and how do I tie that to business outcomes?*
 
 Keep things simple to start. You have a lot going on just making sure the deployment is a success. And in fact, with a few simple metrics you can start measuring the success of the deployment.
@@ -32,7 +32,7 @@ Even after you get to 100%, counts will continue to be useful to illustrate grow
 In addition to illustrating deployment success, coverage metrics can also be tied to risk reduction outcomes with minimal additional work. Most organizations already have key risk indicators (KRIs) in place for their security programs (if not, here's the part where it will take some work to define them). With a little documentation and communication, IAM coverage metrics can easily be tied to existing KRIs. Note also that KRIs are usually relatively static, as compared to KPIs which frequently deal with the performance of some system or process over time. Stay tuned for more on KPIs next time.
 
 
-## How To Execute
+#### How To Execute
 
 Each IAM implementation will have slightly different user types, accounts, and targets in scope, but here's an example list to get you started.
 

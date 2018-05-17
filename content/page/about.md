@@ -4,8 +4,8 @@ menu: main
 weight: -20
 draft: true
 ---
-here's some stuff about me
+[![Email Me](/images/gmail.png)](mailto:mattkopecki@gmail.com?Subject=[mattkopecki.com])
 
-Contact
-
-Email, PGP/Secure
+[![Secure Contact](/images/keyhole.png)](http://github.com/mattkopecki/PGP)
+    
+ 

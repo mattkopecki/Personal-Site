@@ -113,6 +113,11 @@ Commit any changes and then run the script to publish the site.
     ./publish_to_master.sh
 
 
+---
 
-----
-https://gohugo.io/hosting-and-deployment/deployment-with-wercker/
+
+# v2
+
+I found myself wanting to publish from more than just one machine. Of course all the source is available in my Github repo but to have Hugo installed and be able to rebuild and publish the site wasn't always a given.
+
+Looking in to it, I followed a solution very similar to [this](ttps://gohugo.io/hosting-and-deployment/deployment-with-wercker/) using Wercker to remotely build and deploy my site whenever I push commits to the right branch in Github.

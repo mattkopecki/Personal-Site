@@ -1,6 +1,6 @@
 ---
 date: "2018-05-15T14:05:01-05:00"
-title: "IAM Metrics - Part 1"
+title: "IAM Metrics Part 1 - Measuring Deployment Success and Risk Reduction"
 authors: []
 categories:
   - IAM
@@ -11,7 +11,7 @@ draft: false
 ---
 #### Preface - Should We Measure?
 
-Of course it would be great if you started measuring something fancy like _the average time to detect and resolve a native change across each connected target system_. But before you can do that, you would need your IAM ecosystem to be mature enough that all connected targets were fully automated so no out-of-band provisioning was to be occuring, and you would need a dedicated team who monitored and responded to out-of-band changes. For most enterprises, those are lofty goals.
+Of course it would be great if you started measuring something fancy like _the average time to detect and resolve a native change across each connected target system_. But before you can do that, you would need your IAM ecosystem to be mature enough that all connected targets were fully automated so no out-of-band provisioning was to be occurring, and you would need a dedicated team who monitored and responded to out-of-band changes. For most enterprises, those are lofty goals.
 
 So should you wait to start measuring your IAM program until later when it's more mature? No! There is plenty of business value to be gained from implementing IAM metrics as soon as possible. Later on, as your IAM environment matures, it generally makes sense to carve out project time to specifically define and implement IAM metrics. For now, here are some things to focus on while you execute the early phases of a deployment.
 
@@ -49,7 +49,7 @@ Each IAM implementation will have slightly different user types, accounts, and t
   - _Mobile and multifactor authentication_ could be factored in or broken out separately. It could potentially be advatageous to categorize your metrics by authentication endpoint.
 * **Privileged Access Management Coverage** - security professionals understand the importance of privileged credentials in any cyber threat model, and should look for KRIs in Cyber Security and Incident Response Risk domains. Other than total account coverage, PAM coverage can be one of the headline metrics for demonstrating deployment success.
   - _Privileged Accounts onboarded or vaulted_ ideally broken out based on account types. Hopefully you have a PAM strategy that's already defined and prioritized your privileged access patterns. Shared accounts with high privileges (system, operational) usually present the highest risks.
-  - _Proportion of Priviliged Accounts with multi factor or next gen authentication._ OK great, they're vaulted, but if you have a default login with an 8 character password then there's a lot of room for improvement.
+  - _Proportion of Privileged Accounts with multi factor or next gen authentication._ OK great, they're vaulted, but if you have a default login with an 8 character password then there's a lot of room for improvement.
   - _Number of admin password changes per month_
   - _Number of emergency admin access events per month_
 * **Counts of IAM Events** - if you have an IAM system in production, you'll be generating some type of event logs. Without needing to get into detail on *how* these events were generated or resolved, it can still be useful to track pure volumes.
@@ -67,10 +67,10 @@ However, don’t be afraid to combine reports outside of the IAM tool (e.g. in E
 
 ***Example:*** *If you have...*
 
-+ *A report listing all Authoritative Identites, and*
++ *A report listing all Authoritative Identities, and*
 + *A report of all Accounts with their associated Identity*
 
-*Then you can systhesize those to create...*
+*Then you can synthesize those to create...*
 
 + *A report listing all accounts from a specific target which are linked to a human identity, or*
 + *A report of identities with multiple accounts in a target, or*

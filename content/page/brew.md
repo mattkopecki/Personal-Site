@@ -2,7 +2,7 @@
 title: "Brew"
 menu: main
 weight: -230
-draft: true
+draft: false
 ---
 ![](/images/tfh.png)
 
@@ -12,11 +12,8 @@ Or are they responsible? They vote at the polls, with their dollars, and with th
 
 Cyber warfare is being waged, should we try to stop it, or to win it?
 
-### FLAGSHIP BEERS
+*[Visit the Tinfoil Hat Brewery website](http://tinfoilhatbrewery.com/)*
 
-### SEASONAL RELEASES
-
-### COMING SOON...
 
 ### ABOUT
 
@@ -26,9 +23,10 @@ Tinfoil Hat Brewery is an undercover operation based somewhere in Chicago. Our b
 
 Now no amount of feigned public outrage and hyperbolic mouth-frothing can stand in our way. Drink our beer and become a co-conspirator! 
 
-END TRANSMISSION. 
-
 
 ### THE BREWER
 
-Snowden had his NSA docs. Assange had his leaks. **Matt Kopecki has his beer.** [Get in contact!](/about)
+Snowden had his NSA docs. Assange had his leaks. **Matt Kopecki has his beer.** [Get in contact!](http://tinfoilhatbrewery.com/contact)
+
+
+`END TRANSMISSION.`

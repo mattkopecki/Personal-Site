@@ -3,5 +3,6 @@ title: Home
 menu: main
 weight: -270
 ---
-> Minimalism is not a lack of something. It’s simply the perfect amount of something.
-> — Nicholas Burroughs
+> Brain:  Pinky, are you pondering what I'm pondering?
+> 
+> Pinky:  I think so, Brain, but Pete Rose? I mean, can we trust him?

@@ -1,12 +1,13 @@
 ---
-date: "2018-05-14T14:05:01-05:00"
-title: "IAM Metrics - Part 2"
+date: "2018-05-22T14:05:01-05:00"
+title: "IAM Metrics Part 2 - Measuring How We Do Business Now"
 authors: []
 categories:
   - IAM
   - Enterprise
 tags:
   - metrics
+cover: /images/metrics-2.jpg
 draft: true
 ---
 

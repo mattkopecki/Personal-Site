@@ -7,6 +7,7 @@ categories:
   - Enterprise
 tags:
   - metrics
+cover: /images/metrics-1.jpg
 draft: false
 ---
 #### Preface - Should We Measure?

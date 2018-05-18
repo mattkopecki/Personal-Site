@@ -7,6 +7,7 @@ categories:
   - Enterprise
 tags:
   - metrics
+cover: /images/metrics-4.jpg
 draft: true
 ---
 

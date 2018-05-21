@@ -10,3 +10,7 @@ draft: true
 ---
 
 UI/UX - how do we make sure security is part of the user experience?
+
+change the terms - privacy, security, etc. mean different things to end users
+
+change the context - security isnt negative

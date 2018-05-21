@@ -16,7 +16,7 @@ Of course it would be great if you started measuring something fancy like _the a
 
 So should you wait to start measuring your IAM program until later when it's more mature? No! There is plenty of business value to be gained from implementing IAM metrics as soon as possible. Later on, as your IAM environment matures, it generally makes sense to carve out project time to specifically define and implement IAM metrics. For now, here are some things to focus on while you execute the early phases of a deployment.
 
-This series isn't intended to create a comprehensive list of all IAM metrics, but will aim to at least lay a cohesive framework for how you can (and why you should) incorporate metrics into you IAM deployment at various stages of maturity.
+This series isn't intended to create a comprehensive list of all IAM metrics, but will aim to at least lay a cohesive framework for how you can (and why you should) incorporate metrics into your IAM deployment at various stages of maturity.
 
 
 #### Where Do We Start?
@@ -44,6 +44,7 @@ Each IAM implementation will have slightly different user types, accounts, and t
   - _Total account coverage_ - as number of accounts under centralized management grows, risk of (misuse|data loss|credential compromise) decreases!
   - _Account coverage by repository._ Potentially advantageous to categorize account repositories by Sensitivity (e.g., regulatory significance, risk, supply chain) or by Type (Applications versus infrastructure)
   - _Number of uncorrelated accounts._ Is this number growing or shrinking and why? It probably grows as you onboard more applications, which can illustrate the fact that there was a lot of distributed risk in your IT environment that has now been centralized. Hopefully this number shrinks to reflect your team's work on determining account ownership, closing dormant accounts, and overall reducing attack surface!
+  - _Percentage of users with access granted outside of access request systems_
 * **Authentication Coverage** - easy to tie to risk reduction when comparing the security provided by different authentication methods. Multi factor is more secure than single factor...what's your volume of each? Less tangibly, you might be able to measure user experience advantages by authentication method. SSO is a better experience than typing a password...how often does each occur? If defined, look for KRIs around IT Resiliency and Continuity Risk to tie to.
   - _SSO passthrough volume_
   - _Failed authentication attempts_
@@ -59,6 +60,8 @@ Each IAM implementation will have slightly different user types, accounts, and t
   - _Number of reconciliation exceptions_
   - _Number of Separation of Duty violations_
   - _Number of certification decisions_
+  - _Number of passwords used_
+  - _Number of applications using IAM APIs_
 
 
 ***Key Execution Detail:*** make sure you have at least *some* reporting requirements in your first IAM system release. Almost all packages come with some reports out-of-the-box, but you might be surprised what you *can’t get* without some customization. Make sure you've at least seen the list of OOTB reports, and hopefully even seen an example of each. A little foresight goes a long way towards making sure you have the right building blocks available from the get-go. 

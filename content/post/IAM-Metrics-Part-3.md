@@ -1,5 +1,5 @@
 ---
-date: "2018-05-21T14:05:01-05:00"
+date: "2018-05-22T14:05:01-05:00"
 title: "IAM Metrics - Part 3"
 authors: []
 categories:
@@ -21,3 +21,14 @@ Category: new ways of doing business
     + Measures effectiveness of roles
   -  Policy-driven versus request-based access assignment:
     + Measures effectiveness of policies to reduce number of request transactions
+  - _Entitlement requests vs. policybased assignments (time saving!)_
+
+
+
+
+### A Metric
+What should you measure
+How should you prioritize when to measure those things
+Technically, Where does that data come from (where and how - _input)_
+What is the buinsess balue of that metric (why)
+Tactically, how do you use that business value

@@ -1,5 +1,5 @@
 ---
-date: "2018-05-22T14:05:01-05:00"
+date: "2018-05-23T14:05:01-05:00"
 title: "IAM Metrics - Part 4"
 authors: []
 categories:
@@ -29,3 +29,8 @@ Category: customer effectiveness
     + Accounts not accessed
     + Account expiration
     + Lost IDs and forgotten passwords
+* B2B Interactions
+  - B2B accounts with invalid expiration date_
+  - _B2B accounts with invalid business partner_
+  - _B2B accounts with invalid sponsor_
+  - _Consumer identities unmatched in CRM_

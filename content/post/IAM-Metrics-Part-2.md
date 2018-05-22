@@ -1,6 +1,6 @@
 ---
 date: "2018-05-21T16:05:01-05:00"
-title: "IAM Metrics Part 2 - Improving How We Do Business Now"
+title: "IAM Metrics Part 2 - Measuring Improvement in How We Do Business Now"
 authors: []
 categories:
   - IAM

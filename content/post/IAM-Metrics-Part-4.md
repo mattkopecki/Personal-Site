@@ -1,6 +1,6 @@
 ---
 date: "2018-05-23T14:05:01-05:00"
-title: "IAM Metrics - Part 4"
+title: "IAM Metrics Part 4 - Measuring Customer Effectiveness"
 authors: []
 categories:
   - IAM
@@ -11,7 +11,7 @@ cover: /images/metrics-4.jpg
 draft: true
 ---
 
-Category: customer effectiveness
+Category: customer (and partner) effectiveness
 * B2C Interactions
   - Customer Enrollments:
     + Account creation

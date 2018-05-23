@@ -1,0 +1,37 @@
+{{- $apiEndpoint := .Site.Params.comments.staticman.apiEndpoint -}}
+{{- $username := .Site.Params.comments.staticman.github.username -}}
+{{- $repo := .Site.Params.comments.staticman.github.repository -}}
+{{- $branch := .Site.Params.comments.staticman.github.branch -}}
+{{- $api := ( print $apiEndpoint "/" $username "/" $repo "/" $branch ) -}}
+
+
+<div class="subscribe-to-blog">
+  <h4 class='subscribe-title'>
+    Subscribe to new posts
+  </h4>
+  <form  method="post" action="{{ $api }}/blogSubscribers" class='comment-form'>
+    <input type='hidden' name='options[redirect]' value='{{ .Permalink }}#submission-success'>
+    <input type='hidden' name='options[redirectError]' value='{{ .Permalink }}#submission-failure'>
+    <input type="hidden" name="options[slug]" value="post-collection">
+
+    <input type='hidden' name='fields[permalink]' value='{{ .URL }}'>
+    <input type="hidden" name="options[origin]" value="{{ $.Permalink }}">
+    <input type="hidden" name="options[parent]" value="post-collection">
+    <input type="hidden" name="options[subscribe]" value="email">
+
+    <input type="address" name="fields[honeypot]" style="display: none">
+
+    <div>
+      <label for='name'>{{ i18n "name" }}*</label>
+      <input id='name' name='fields[name]' type='text' required>
+    </div>
+    <div>
+      <label for='email'>{{ i18n "email" }}*</label>
+      <input id='email' name='fields[email]' type='email' required>
+    </div>
+    <div>
+      <input type="submit" value="Subscribe!">
+      (Unsubscribe at any time)
+    </div>
+  </form>
+</div>

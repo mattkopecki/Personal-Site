@@ -1,0 +1,53 @@
+comments:
+  allowedFields: ["author", "content", "email", "parent_id", "permalink", "site"]
+  allowedOrigins: ["localhost", "mattkopecki.com"]
+  branch: "master"
+  commitMessage: "add [comment]: by {fields.author} <Staticman>\n\n{fields.permalink}#comment-{@id}"
+  filename: "comment-{@date:YYYY-MM-DDTHH-mm-ss.SSS}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp"
+  moderation: false
+  name: "Matt Kopecki's Blog"
+  path: "data/comments/{options.postId}"
+  requiredFields: ["author", "content", "email", "permalink"]
+  transforms:
+    email: md5
+
+notifications:
+    enabled: true
+    apiKey: "uBXpFGrB/YfYB51MscGx8sZGOB44I5/rWAL9ivZbsGpT/5OrXEcKRWLrUpMbH2SUErshPN4S+B/RQEsI9qOAdA4Xfuybo3Jq1by4+2mn3w78P43DyVXF0KAAdgT0cbgNRnDhApr7OHV7mClTvUrP6MU7HmLPiDIO8Mt/JwAkhhA="
+    domain: "lB5bsSxIWlHoFo3WzXWSfpInO1SaHHJRPt6s154gavDQbo+yW2/JMe3B4zR0ZeyoQUckF94Y4DsitPWdte2OngIaJaOn1aEACJr+dnpZ1VVewJv9JkeApp/9UzVivQxsoiYk51vgjNGgCiGWSLtPTdvHJ3mmFdis9JwiLffgjGY="
+
+blogSubscribers:
+  allowedFields: ["name", "email"]
+  allowedOrigins: ["localhost", "mattkopecki.com"]
+  branch: "master"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "iso8601"
+    tags: ["blog-subscription"]
+  format: "yaml"
+  commitMessage: "New Staticman blog subsciption"
+  moderation: true
+  name: "Matt Kopecki's Blog"
+  path: "data/blogSubscribers"
+  filename: "contact-{@date:YYYY-MM-DDTHH-mm-ss.SSS}"
+  requiredFields: ["name", "email"]
+  transforms:
+    email: md5
+  notifications:
+    enabled: true
+    apiKey: "uBXpFGrB/YfYB51MscGx8sZGOB44I5/rWAL9ivZbsGpT/5OrXEcKRWLrUpMbH2SUErshPN4S+B/RQEsI9qOAdA4Xfuybo3Jq1by4+2mn3w78P43DyVXF0KAAdgT0cbgNRnDhApr7OHV7mClTvUrP6MU7HmLPiDIO8Mt/JwAkhhA="
+    domain: "lB5bsSxIWlHoFo3WzXWSfpInO1SaHHJRPt6s154gavDQbo+yW2/JMe3B4zR0ZeyoQUckF94Y4DsitPWdte2OngIaJaOn1aEACJr+dnpZ1VVewJv9JkeApp/9UzVivQxsoiYk51vgjNGgCiGWSLtPTdvHJ3mmFdis9JwiLffgjGY="
+
+
+
+
+
+https://api.staticman.net/v2/encrypt/mail.mattkopecki.com

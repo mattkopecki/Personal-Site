@@ -11,21 +11,39 @@
 
 {{- if ( or $enableConditionOne $enableConditionTwo ) -}}
 
-{{- $disqusEnabled := .Site.DisqusShortname -}}
-{{- $staticmanEnabled := $config.staticman.enable -}}
+	{{- $disqusEnabled := .Site.DisqusShortname -}}
+	{{- $staticmanEnabled := .Site.Params.staticman.enable -}}
+	{{- $staticmanCommentsEnabled := .Site.Params.comments.staticman.enable -}}
+	{{- $staticmanSubscribeEnabled := .Site.Params.subscribe.staticman.enable -}}
 
-{{- if ( or $disqusEnabled $staticmanEnabled ) -}}
-<section id='comments' class='comments'>
-  <div class='container sep-before'>
-    <div class='comments-area'>
-    {{- if $disqusEnabled -}}
-      {{ partial "comments/disqus" . }}
-    {{- else if $staticmanEnabled -}}
-      {{ partial "comments/staticman" . }}
-    {{- end -}}
-    </div>
-  </div>
-</section>
-{{- end -}}
+	{{- if ( or $disqusEnabled $staticmanEnabled ) -}}
+		{{- if not ( eq .Section "page" ) -}}
+
+			{{- if $staticmanSubscribeEnabled -}}
+				<section id='subscribe' class='subscribe'>
+				  <div class='container sep-before'>
+				    <div class='subscribe-area'>
+				      {{ partial "comments/staticman/subscribe" . }}
+				    </div>
+				  </div>
+				</section>
+			{{- end -}}
+
+			{{- if ( or $disqusEnabled $staticmanCommentsEnabled ) -}}
+				<section id='comments' class='comments'>
+				  <div class='container sep-before'>
+				    <div class='comments-area'>
+				    {{- if $disqusEnabled -}}
+				      {{ partial "comments/disqus" . }}
+				    {{- else if $staticmanCommentsEnabled -}}
+				      {{ partial "comments/staticman" . }}
+				    {{- end -}}
+				    </div>
+				  </div>
+				</section>
+			{{- end -}}
+			
+		{{- end -}}
+	{{- end -}}
 
 {{- end -}}

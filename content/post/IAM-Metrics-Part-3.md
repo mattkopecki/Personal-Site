@@ -29,6 +29,7 @@ Shifting left means moving reducing administrative workload by educating or enab
 For example, any time you can prevent the help desk from answering the same questions over and over again or completing simple transactions that customers could handle by themselves, that is shifting left.
 
 Your IAM tool does these things, so you should measure and report on them!
+
   - Demonstrate the effectiveness of a password management deployment by measuring how many password resets have been redirected from the service desk into an automated tool
   - Measure reduction in total number of events through SSO rollout and password synchronization improvements
   - Measure the number of approvals or certification decisions _not needed_ because of your entitlement classification scheme that only submits the highest risk items for multiple reviews
@@ -41,6 +42,7 @@ Your IAM tool does these things, so you should measure and report on them!
 If shifting left meant moving upstream in the same general process, shifting up means moving from one process to a newer one.
 
 In IAM's world, the biggest class of these types of process shifts are whenever you can move from request-based actions to policy-driven actions.
+
   - Attribute-based access assignments made, versus request-based role or entitlement requests provisioned. Even if you don't have an ABAC strategy and haven't written a lot of XACML, you probably still have "birthright" access that you assign throughout your user lifecycle so be sure to include that.
   - Policy enforcement decisions versus individual review of events. These save time, increase consistency, and remove the least attentive and most vulnerable link in the chain (the human).
   - Rule-based data/metadata enhancement replacing manual effort. Are you using rules to correlate accounts to identities where you hadn't before? Are you using rules to build your access catalog or create identity attributes when you reconcile/aggregate data? These things used to be done through spreadsheet wizardry, if anyone was doing them at all.

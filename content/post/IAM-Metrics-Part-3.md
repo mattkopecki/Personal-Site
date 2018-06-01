@@ -30,11 +30,11 @@ For example, any time you can prevent the help desk from answering the same ques
 
 Your IAM tool does these things, so you should measure and report on them!
 
-  - Demonstrate the effectiveness of a password management deployment by measuring how many password resets have been redirected from the service desk into an automated tool
-  - Measure reduction in total number of events through SSO rollout and password synchronization improvements
+  - Demonstrate the effectiveness of a password management deployment by measuring _how many password resets have been redirected from the service desk into an automated tool_.
+  - Measure _reduction in total number of events_ through SSO rollout and password synchronization improvements.
   - Measure the number of approvals or certification decisions _not needed_ because of your entitlement classification scheme that only submits the highest risk items for multiple reviews
-  - Measure the shift from individual access requests to access requests bundled into roles. Roles pull upstream the work of finding and submitting all your individual entitlement requests.
-  - Measure the impact of form or process validation rules that reduce unneeded work
+  - Measure the shift _from individual access requests to access requests bundled into roles_. Roles pull upstream the work of finding and submitting all your individual entitlement requests.
+  - Measure the impact of form or process validation _rules that reduce unneeded work_.
 
 
 **"Shifting Up" With IAM Automation**
@@ -43,8 +43,8 @@ If shifting left meant moving upstream in the same general process, shifting up 
 
 In IAM's world, the biggest class of these types of process shifts are whenever you can move from request-based actions to policy-driven actions.
 
-  - Attribute-based access assignments made, versus request-based role or entitlement requests provisioned. Even if you don't have an ABAC strategy and haven't written a lot of XACML, you probably still have "birthright" access that you assign throughout your user lifecycle so be sure to include that.
-  - Policy enforcement decisions versus individual review of events. These save time, increase consistency, and remove the least attentive and most vulnerable link in the chain (the human).
-  - Rule-based data/metadata enhancement replacing manual effort. Are you using rules to correlate accounts to identities where you hadn't before? Are you using rules to build your access catalog or create identity attributes when you reconcile/aggregate data? These things used to be done through spreadsheet wizardry, if anyone was doing them at all.
+  - _Attribute-based access assignments made, versus request-based role or entitlement requests provisioned._ Even if you don't have an ABAC strategy and haven't written a lot of XACML, you probably still have "birthright" access that you assign throughout your user lifecycle so be sure to include that.
+  - _Policy enforcement decisions versus individual review of events._ These save time, increase consistency, and remove the least attentive and most vulnerable link in the chain (the human).
+  - _Rule-based data/metadata enhancement replacing manual effort._ Are you using rules to correlate accounts to identities where you hadn't before? Are you using rules to build your access catalog or create identity attributes when you reconcile/aggregate data? These things used to be done through spreadsheet wizardry, if anyone was doing them at all.
 
-After you have collected your metrics from Part 1 and Part 2, stacking these types of business transformation metric on top can really hammer home how important your IAM deployment has been to your enterprise.
+After you have collected your metrics from Part 1 and Part 2, stacking these types of business transformation metrics on top can really hammer home how important your IAM deployment has been to your enterprise.

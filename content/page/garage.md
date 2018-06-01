@@ -6,7 +6,7 @@ draft: false
 ---
 ### Current
 
-[![2001 BMW M Coupe](/images/m_coupe.png)](#)
+![2001 BMW M Coupe](/images/m_coupe.png)
 
 2001 BMW M Coupe 
 
@@ -14,11 +14,11 @@ draft: false
 
 ### Past
 
-[![1978 Honda CX500](/images/cx500.jpg)](#)
+![1978 Honda CX500](/images/cx500.jpg)
 
 1978 Honda CX500 Cafe Racer Conversion ([Build Thread](http://cx500forum.com/forum/cx-customization-modifications/18373-78-cafe-build.html))
 
 
-[![1991 BMW 318i](/images/318i.jpg)](#)
+![1991 BMW 318i](/images/318i.jpg)
 
 1991 BMW 318i

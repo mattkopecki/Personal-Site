@@ -1,0 +1,36 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: authors
+  label: Authors
+  type: tag_list
+  hidden: false
+  default: []
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default:
+  - 
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default:
+  - 
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true

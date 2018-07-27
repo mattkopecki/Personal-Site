@@ -14,3 +14,8 @@ Analyst
 - present findings or recommendations bottom line up front. Often literally. There’s always more detail, background, or info, and it probably is really critical to know. But it’s all in support of the bottom line, so that can’t get lost.
 How to say it (like Manager Tools does)
 - food for thought vs. arguments. Don’t just throw things out there for people to chew on, assemble the relevant facts into an argument and continue building in support of that one argument
+
+
+How to communicate security if you're a technical person
+- how to tie to business risk
+- how to tie to business value, return on investment

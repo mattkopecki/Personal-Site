@@ -30,7 +30,12 @@ Category: customer (and partner) effectiveness
     + Account expiration
     + Lost IDs and forgotten passwords
 * B2B Interactions
-  - B2B accounts with invalid expiration date_
-  - _B2B accounts with invalid business partner_
-  - _B2B accounts with invalid sponsor_
-  - _Consumer identities unmatched in CRM_
+  - B2B accounts with invalid expiration date
+  - B2B accounts with invalid business partner
+  - B2B accounts with invalid sponsor
+  - Consumer identities unmatched in CRM
+
+
+Metrics 4 - these aren’t like what you’d get in the ad industry. Those guys have whole identity programs too, but they’re very different than your standard enterprise identity program. Instead of authoritative stores of users, they have browser fingerprints, cookie tracking, and analytics. There’s a lot to learn from them, but what follows are examples of some things you can do with existing standard enterprise technology
+
+what about CIAM, is that the same as this or different?

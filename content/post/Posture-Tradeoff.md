@@ -7,7 +7,7 @@ categories:
   - Enterprise
 tags:
   - Leadership
-draft: true
+draft: false
 ---
 
 ***Leaders sometimes don't understand what they're truly trading off.***

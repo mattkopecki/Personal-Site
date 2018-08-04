@@ -13,7 +13,7 @@ draft: false
 
 Whether you have a full CIAM solution in place, or maybe just some reporting out of a federated identity store, if your IAM solution has non-employee identities of any sort then there are a few interesting things you can start to measure.
 
-Some of these sound fancy, but still aren’t anything like what you’d get in the ad industry. Those thypes of companies have whole identity programs too, but they’re very different than your standard enterprise identity program. Instead of authoritative stores of users, they have browser fingerprints, cookie tracking, and analytics. There’s a lot to learn from them, but what follows are examples of some things you can do with existing standard enterprise technology.
+Some of these sound fancy, but still aren’t anything like what you’d get in, say, the ad industry. Those types of companies have entire identity programs too, but they’re very different than your standard enterprise identity program. Instead of authoritative stores of users, they have browser fingerprints, cookie tracking, and analytics. There’s a lot to learn from them, but what follows are examples of some things you can do with existing standard enterprise technology.
 
 #### How To Execute
 

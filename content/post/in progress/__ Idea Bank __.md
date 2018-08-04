@@ -66,20 +66,6 @@ https://cloudonaut.io/aws-security-primer/
 https://news.ycombinator.com/item?id=11312243
 
 
-**Security is not a Checklist**
-With that said, here are checklists that should be followed because you need to get this stuff done and out of the way first so that you can focus on the hard stuff
-https://hn.algolia.com/?query=security%20checklist&sort=byPopularity&prefix=false&page=0&dateRange=all&type=story
-I am in favor of checklists for certain critical tasks, even if they are repetitive and/or boring. They are helpful in making medicine safer.
-https://www.newyorker.com/magazine/2007/12/10/the-checklist
-https://www.ncbi.nlm.nih.gov/pubmed/24116973
-Same with aviation.
-http://qualitysafety.bmj.com/content/24/7/428
-
-
-**Startup Security**
-https://www.sqreen.io/checklists/saas-cto-security-checklist
-
-
 **Cyber-xyz is the new goon job**
 The goon category is interesting in a future world where AI has replaced most jobs, because it can employ an unlimited number of people. (Goon jobs exist to counterbalance other goon jobs. Militaries are the canonical example.)
 Most jobs -- teachers, auto workers, plumbers, farmers -- have a natural ceiling on employment related to demand, but goon jobs don't because when one side hires more goons, the other side has to also. Militaries have created millions of jobs this way.
@@ -150,20 +136,6 @@ https://news.ycombinator.com/item?id=16995389
 
 **saying: brakes exist in a car for it to go faster. we have to figure out for security as business leaders, what is that perfect pivot for going as fast as we can without compromisig the safety of our organization**
   - look at racing as analogy
-
-
-**leaders sometimes dont understand what they're truly trading off.**
-- stock prices might go back up. but what are the other impacts to the organization that they may not be considering? what are potential brand and trust losses that they may be facing, and how do you measure that? at what point is it worth investing some amount of money, but knowing that a breach may still be possible
-- what does the true cost of a breach look like
-- target, thd, the impact on the stock but then the recovery. if i'm a business leader, you could say loook financially they didnt take that big of a hit. yeah they paid some fines and had some other things to do, but from a stock and future of the company, they've fully recovered after those breaches. our data's still in equifax even though they got breached. can you justify that expense to lock it down when the penalty is not that high?
-- one of the biggest costs of a breach is how much it interrupts the work of the company because of how many hands are on deck to recover from that.
-  - sales department is now trained to answer customer objections. and yes your deals might still close but how much of that gets delayed. bad quarter?
-  - running a business as interrupt-driven is highly ineffective and highly disruptive to creating stability. there's also significant cost in loss of morale in employees. and it's going to take a long time to measure, but how hard is your recruiting after that? how many people have left in the 6 months that it might take them to find a job after that.
-    - Pheonix Project - the cost of interruptions, and the morale improving as they work on their processes
-  - Continuing on the Masha topic, interrupt driven management - ESW 
-  - Interrupt driven doesn’t just apply to breaches
-  - If security isn’t early in your process, you’re always going to be backing up. How much wasted dev and test time (not to mention schedule delays) vs paying a security engineer 100k
-  - Even if you’re mature and have a bug bounty, compare the 25 emails and month it takes to evaluate if the bug is real, what’s the impact, and close a bug at that stage versus the day it would take to fix if discovered internally and by someone who was already in all the meetings and understood the context and potential impact . The payout for the bug itself is nearly irrelevant
 
 
 **how did we get to a point where security is different from quality**

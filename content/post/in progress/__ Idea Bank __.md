@@ -37,22 +37,6 @@ quantum computing, quantum cryptography, and security - what it is and why it ma
 **Calling BS: Valid/Top use cases for ML/AI in security**
 
 
-**Cost/Benefit of complying with GDPR**
-Let’s get this out of the way first:
-* Our Company is not a European Company, so it does not apply to us
-* Busted! This is a myth. The EU General Data Protection Regulation is not bound by any borders and is applicable to any company or organization, globally, that is collecting or processing EU Citizen’s Personal Identifiable Information. This includes services hosted outside of the EU.
-* Our company is very small so we do not need to comply
-* Oh no, another myth. It doesn’t matter how small the company is. Just like the large enterprise companies, you need to comply. If you do business with EU Citizens personal data you must secure it.
-* I can just install a single GPDR Compliance box and I am completely protected
-* BUSTED. Many companies are offering complete silver bullet compliance for GDPR, but in the end you are responsible and accountable for complying with GDPR, and I can assure you there is no silver bullet compliance box.
-So, it’s going to be hard, and you’re almost certainly subject to it. But should you comply?
-other side of the coin: now it's not just regulators looking at these things. People will be concerned about how you manage their data. Look at the Equifax breach and class action lawsuits. People will expect that they can change what data you're retaining.
-
-
-**GDPR – What do U.S. companies need to consider?**
-https://blog.gemalto.com/security/2017/10/12/gdpr-u-s-companies-need-consider/
-
-
 **Death to Passwords: possible paths forward**
 
 
@@ -82,6 +66,7 @@ https://news.ycombinator.com/item?id=16995389
   - 37 percent bemoaned the lack of funding and management buy-in
   - 38 percent reported a lack of application security skills, tools and methods
   - https://m.youtube.com/watch?v=6k1MmroFQx0
+      - 77% of breaches were identity related
   - Compare how idm attempts to stop intruders vs how appsec does
   - Take the OWASP top 10 and rephrase with users in the mix to show “so what”
   - OWASP number 2 is about breaking authentication to assume user identities

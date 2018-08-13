@@ -4,6 +4,8 @@ build:
     - arjen/hugo-build:
         theme: minimo
         flags: --buildDrafts=false
+        version: "0.42.1"
+
 deploy:
   steps:
     - install-packages:

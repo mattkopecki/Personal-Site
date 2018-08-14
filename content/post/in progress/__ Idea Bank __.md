@@ -148,5 +148,9 @@ https://news.ycombinator.com/item?id=16995389
 
 
 
+**Calling BS - Awesome Cold Showers**
+
+https://github.com/hwayne/awesome-cold-showers
+
 
 

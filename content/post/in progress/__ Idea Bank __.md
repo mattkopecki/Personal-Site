@@ -131,14 +131,6 @@ https://news.ycombinator.com/item?id=16995389
     - hard to check for business logic flaws, the Rapid 7 guys talked about this too how they need a human tester in addition to a scanner
 
 
-**Power Laws**
-  - Ask yourself how do we know that “average/mean cost per record or number of vulnerabilities or whatever” is a good summary statistic
-  - Measure things in quintiles and think about each quintile
-  - Rethink how to communicate and visualize uncertainty - good examples in paper “when-ish is my bus”
-  - Risk matrix with low medium high actually adds risk (there is research for this) so it’s dangerous
-  - Risk management matrix avoidance acceptance mitigation transfer
-
-
 
 **Secrets management, based on that THOTCON talk**
 

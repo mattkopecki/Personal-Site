@@ -134,6 +134,29 @@ https://news.ycombinator.com/item?id=16995389
 
 **Secrets management, based on that THOTCON talk**
 
+API secrets, cryptographic keys, passwords, and other secrets values
+
+Ideally start with requirements: what kind of secrets do we have to protect, and what features/services do we care about?
+
+- confidentiality?
+- high availability / failure      recoverability?
+- ability to rotate keys      especially without invalidating client credentials causing downtime?
+- auditability helps enforce      least access without logging the secrets themselves?
+- ease of use for developers      (because they're the one writing the code so they implement the security)?
+
+Alternatives:
+
+- Encrypt in version control      (Puppet, Chef, etc.) - some confidentiality without deploying new system
+- Config management (zookeeper,      consul, kingpin) - no confidentiality, not built for this specifically
+- keywhiz by Square - complex      to integrate but provides client cache to store keys to prevent failures
+- Confidant by Lyft - machine      identification based on AWS IAM roles
+- Vault by Hashicorp - very      similar to Knox but doesn't perform caching or gradual key rotation, just      has expiring keys that can break services unless you build your own      caching system
+- Knox - service launched      within the infrastructure, built by Pintrest to solve all these problems      at once
+
+Generally, the biggest hurdles will be moving secrets out of code into the tool, and then also blocking the addition of new secrets into code repos. It’s possible to solve for both of these with regular expressions. 
+
+<https://gist.github.com/maxvt/bb49a6c7243163b8120625fc8ae3f3cd>
+
 
 
 **Architectures You've Always Wondered About**

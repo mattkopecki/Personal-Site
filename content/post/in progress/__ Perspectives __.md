@@ -12,6 +12,11 @@ draft: true
 somthing like this, maybe with IAM perspectives - Cryptographic Right Answers
 http://latacora.singles/2018/04/03/cryptographic-right-answers.html
 
+**Top Perspectives**
+
+- Top perspectives: most interesting topics in Infosec
+  - azure sphere - 565 psw, 27 asw
+  - that crypto puzzle research
 
 **RBAC vs. ABAC**
 

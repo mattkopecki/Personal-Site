@@ -130,8 +130,6 @@ https://news.ycombinator.com/item?id=16995389
     - need to run through unit tests and make sure the behavior of the app is correct, and this should include security as well as any other class of bug
     - hard to check for business logic flaws, the Rapid 7 guys talked about this too how they need a human tester in addition to a scanner
 
-
-
 **Secrets management, based on that THOTCON talk**
 
 API secrets, cryptographic keys, passwords, and other secrets values
@@ -139,33 +137,59 @@ API secrets, cryptographic keys, passwords, and other secrets values
 Ideally start with requirements: what kind of secrets do we have to protect, and what features/services do we care about?
 
 - confidentiality?
-- high availability / failure      recoverability?
-- ability to rotate keys      especially without invalidating client credentials causing downtime?
-- auditability helps enforce      least access without logging the secrets themselves?
-- ease of use for developers      (because they're the one writing the code so they implement the security)?
+- high availability / failure recoverability?
+- ability to rotate keys especially without invalidating client credentials causing downtime?
+- auditability helps enforce least access without logging the secrets themselves?
+- ease of use for developers (because they're the one writing the code so they implement the security)?
 
 Alternatives:
 
-- Encrypt in version control      (Puppet, Chef, etc.) - some confidentiality without deploying new system
-- Config management (zookeeper,      consul, kingpin) - no confidentiality, not built for this specifically
-- keywhiz by Square - complex      to integrate but provides client cache to store keys to prevent failures
-- Confidant by Lyft - machine      identification based on AWS IAM roles
-- Vault by Hashicorp - very      similar to Knox but doesn't perform caching or gradual key rotation, just      has expiring keys that can break services unless you build your own      caching system
-- Knox - service launched      within the infrastructure, built by Pintrest to solve all these problems      at once
+- Encrypt in version control (Puppet, Chef, etc.) - some confidentiality without deploying new system
+- Config management (zookeeper, consul, kingpin) - no confidentiality, not built for this specifically
+- keywhiz by Square - complex to integrate but provides client cache to store keys to prevent failures
+- Confidant by Lyft - machine identification based on AWS IAM roles
+- Vault by Hashicorp - very similar to Knox but doesn't perform caching or gradual key rotation, just      has expiring keys that can break services unless you build your own caching system
+- Knox - service launched within the infrastructure, built by Pintrest to solve all these problems at once
 
 Generally, the biggest hurdles will be moving secrets out of code into the tool, and then also blocking the addition of new secrets into code repos. It’s possible to solve for both of these with regular expressions. 
 
 <https://gist.github.com/maxvt/bb49a6c7243163b8120625fc8ae3f3cd>
 
-
-
 **Architectures You've Always Wondered About**
-
-
 
 **Calling BS - Awesome Cold Showers**
 
 https://github.com/hwayne/awesome-cold-showers
 
+**Startup Security**
 
+part of intro - tptacek comment at top of this thread: [https://news.ycombinator.com/item?id=17014818](https://news.ycombinator.com/item?id=17014818 "https://news.ycombinator.com/item?id=17014818")
 
+The answer isn't quite "don't bother" but it's definitely not "install these tools and get started".
+
+Most of the things you can easily set up to watch for security events are looking for problems you simply shouldn't have.
+
+For instance: you can set up fail2ban, sure. But what's it doing for you? If you have password SSH authentication enabled anywhere, you're already playing to lose, and logging and reactive blocking isn't really going to help you. Don't scan your logs for this problem; scan your _configurations_ and make sure the brute-force attack simply can't work.
+
+The same goes for most of the stuff shrink-wrap tools look for in web logs. OSSEC isn't bad, but the things you're going to light up on with OSSEC out of the box all mean something went so wrong that you got owned up.
+
+Same with URL regexes. You can set up log detection for people hitting your admin interfaces. But then you have to ask: why is your admin interface available on routable IPs to begin with?
+
+What you want is an effectively endless sink for developer logs (Splunk is fine but expensive, ELK is fine but complicated to manage), and you want to add structured instrumenting logs to your applications in all the security-sensitive places, like authorization checks (which should rarely fail), and especially a very solid, very long-term audit trail of admin-like actions, so you have some prayer of tracking insider misuse. You could instrument your SQL queries and catch any query failures --- which should also be rare. That kind of stuff. I don't think there's a good shrink-wrap package that does that.
+
+But really: focus on removing attack surface, rather than continuously monitoring it.
+
+https://www.sqreen.io/checklists/saas-cto-security-checklist
+
+**Security (is not a) Checklist**
+With that said, here are checklists that should be followed because you need to get this stuff done and out of the way first so that you can focus on the hard stuff
+https://hn.algolia.com/?query=security%20checklist&sort=byPopularity&prefix=false&page=0&dateRange=all&type=story
+I am in favor of checklists for certain critical tasks, even if they are repetitive and/or boring. They are helpful in making medicine safer.
+https://www.newyorker.com/magazine/2007/12/10/the-checklist
+https://www.ncbi.nlm.nih.gov/pubmed/24116973
+Same with aviation.
+http://qualitysafety.bmj.com/content/24/7/428
+
+**Identity Management for Red Teamers**
+
+While cybersecurity is a huge topic covering dozens of disciplines, identity plays a foundational role. Knowing who has access to what resources and data is crucial, so is enforcing access rules and making sure that those who don’t have access don’t gain unauthorized access.

@@ -19,3 +19,4 @@ Cereal box label for software / labeling standard — how would this be designed
 - so, this rating is recursive. and you can have infinite recursion. sounds bad! but actually, this is something that has to be rated manually, so it's good! want your system to be a better rating? check in to the downstream systems. want those systems' ratings to be better so it boosts yours? gonna have to look in to their downstream systems. lots of work, yes. stop whenever you want, if youre comforatble with your security rating. but guess what, this is how security works, and this is where breaches and bugs come from. start one place, pivot to another, continue...
 - Within each of these three macro(nutrient) headings, there can be micro(nutrient) breakdowns. things like performance, security, etc.
 - Most of these properties probably arent linear from 0 to 1. like, 90% secure isn't almost 100% secure. there's a power law in each of these things probably.
+

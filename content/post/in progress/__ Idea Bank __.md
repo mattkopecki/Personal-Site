@@ -193,3 +193,20 @@ http://qualitysafety.bmj.com/content/24/7/428
 **Identity Management for Red Teamers**
 
 While cybersecurity is a huge topic covering dozens of disciplines, identity plays a foundational role. Knowing who has access to what resources and data is crucial, so is enforcing access rules and making sure that those who don’t have access don’t gain unauthorized access.
+
+**Machine Identity**
+
+what do you want to authenticate? want to authenticate identity, environment, transaction. all 3 of these coordinate to decide whether something is trustworthy.
+
+collect telemetry/data points. gather attributes about all the processes that are requesting communications. 
+
+Identity of software or workload that's communicating: cryptographic hash, location,  file size, digital certificate if it's digitally signed, loaded modules
+
+Identity of the environment: UUID, CPU ID of the system you're running under, other environmental factors
+
+Transaction: what is it you're trying to do? Java, PowerShell, Browser can be used for good or bad. So it's not just the identity, it's whether you trust that identity to do that thing. If Java is accessing your DB maybe that's trustworthy, but if Java is querying your AD or financial software then maybe all of a sudden it isn't. 
+
+Then, Make policies off of Identity + Transaction.
+
+FYI: with elastic systems and ever changing addresses, you need to be there, on the wire, as communications are happening, in order to determine the machine identity. an agent on the system, in the container, a sidecar, whatever.
+

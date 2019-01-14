@@ -11,6 +11,8 @@ draft: true
 
 *Critical decision points in PAM integrations*
 
+In any PAM integration, 
+
 1.Reduce overall complexity of layered authorizations, or reduce risk by enforcing least-privilege in a complex layered scheme?
 
 2.Introduce a new account type “Privileged Shared Accounts”, or vault existing 2ndary Admin Accounts owned by administrators?

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Matt Kopecki</title>
+    <link>https://mattkopecki.github.com.com/categories/</link>
+    <description>Recent content in Categories on Matt Kopecki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://mattkopecki.github.com.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cybersecurity</title>
+      <link>https://mattkopecki.github.com.com/categories/cybersecurity/</link>
+      <pubDate>Sat, 04 Aug 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/categories/cybersecurity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>https://mattkopecki.github.com.com/categories/dev/</link>
+      <pubDate>Mon, 16 Apr 2018 21:26:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/categories/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enterprise</title>
+      <link>https://mattkopecki.github.com.com/categories/enterprise/</link>
+      <pubDate>Sat, 04 Aug 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/categories/enterprise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IAM</title>
+      <link>https://mattkopecki.github.com.com/categories/iam/</link>
+      <pubDate>Tue, 31 Jul 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/categories/iam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

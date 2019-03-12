@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Matt Kopecki</title>
+    <link>https://mattkopecki.github.com.com/tags/hugo/</link>
+    <description>Recent content in Hugo on Matt Kopecki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 16 Apr 2018 21:26:01 -0500</lastBuildDate>
+    
+	<atom:link href="https://mattkopecki.github.com.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://mattkopecki.github.com.com/post/documentation/</link>
+      <pubDate>Mon, 16 Apr 2018 21:26:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/documentation/</guid>
+      <description>This post contains documentation for the setup of this blog. Hopefully this site will be so stable that I&amp;rsquo;ll totally forget how I set it up when I come back years from now to make a change&amp;hellip;
+Setup the development environment Create the directory structure.
+mkdir ~/Documents/Developer/mattkopecki.github.com cd ~/Documents/Developer/mattkopecki.github.com mkdir site  Install Hugo brew install hugo hugo version  Create the Github repository I already had a github repo set up for a user/organization page.</description>
+    </item>
+    
+  </channel>
+</rss>

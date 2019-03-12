@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity on Matt Kopecki</title>
+    <link>https://mattkopecki.github.com.com/categories/cybersecurity/</link>
+    <description>Recent content in Cybersecurity on Matt Kopecki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 04 Aug 2018 14:05:01 -0500</lastBuildDate>
+    
+	<atom:link href="https://mattkopecki.github.com.com/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tradeoffs For Accepting a Lower Security Posture</title>
+      <link>https://mattkopecki.github.com.com/post/posture-tradeoff/</link>
+      <pubDate>Sat, 04 Aug 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/posture-tradeoff/</guid>
+      <description>Leaders sometimes don&amp;rsquo;t understand what they&amp;rsquo;re truly trading off.
+Yeah, it might keep you up at night sometimes. You know your security posture isn&amp;rsquo;t what it should be. But look around us&amp;hellip;look at Target or The Home Depot. There was an impact on the stock but then a recovery. They paid some fines and had some other things to do, but from a stock- and future-of-the-company perspective, they&amp;rsquo;ve fully recovered after those breaches.</description>
+    </item>
+    
+    <item>
+      <title>The Single Most Important Thing from the 2018 Verizon Data Breach Report</title>
+      <link>https://mattkopecki.github.com.com/post/2018-verizon-data-breach-report/</link>
+      <pubDate>Fri, 20 Apr 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/2018-verizon-data-breach-report/</guid>
+      <description>Verizon has released its 2018 Data Breach Investigation Report (DBIR), which includes pages upon pages of analysis, reports, and graphs depicting cybersecurity trends for the past year.
+So, what&amp;rsquo;s the one most important thing that we can take from the report that&amp;hellip;
+ shows what tactics attackers are likely to use, should encourage executives to support much-needed security initiatives, and illustrates the importance of security?  It&amp;rsquo;s this chart: Less than half of the breaches featured hacking?</description>
+    </item>
+    
+  </channel>
+</rss>

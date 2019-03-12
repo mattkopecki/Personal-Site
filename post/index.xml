@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Matt Kopecki</title>
+    <link>https://mattkopecki.github.com.com/post/</link>
+    <description>Recent content in Blog on Matt Kopecki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 04 Aug 2018 14:05:01 -0500</lastBuildDate>
+    
+	<atom:link href="https://mattkopecki.github.com.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tradeoffs For Accepting a Lower Security Posture</title>
+      <link>https://mattkopecki.github.com.com/post/posture-tradeoff/</link>
+      <pubDate>Sat, 04 Aug 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/posture-tradeoff/</guid>
+      <description>Leaders sometimes don&amp;rsquo;t understand what they&amp;rsquo;re truly trading off.
+Yeah, it might keep you up at night sometimes. You know your security posture isn&amp;rsquo;t what it should be. But look around us&amp;hellip;look at Target or The Home Depot. There was an impact on the stock but then a recovery. They paid some fines and had some other things to do, but from a stock- and future-of-the-company perspective, they&amp;rsquo;ve fully recovered after those breaches.</description>
+    </item>
+    
+    <item>
+      <title>IAM Metrics Part 4 - Measuring Customer Effectiveness</title>
+      <link>https://mattkopecki.github.com.com/post/iam-metrics-part-4/</link>
+      <pubDate>Tue, 31 Jul 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/iam-metrics-part-4/</guid>
+      <description>Whether you have a full CIAM solution in place, or maybe just some reporting out of a federated identity store, if your IAM solution has non-employee identities of any sort then there are a few interesting things you can start to measure.
+Some of these sound fancy, but still aren’t anything like what you’d get in, say, the ad industry. Those types of companies have entire identity programs too, but they’re very different than your standard enterprise identity program.</description>
+    </item>
+    
+    <item>
+      <title>IAM Metrics Part 3 - Measuring New Ways of Doing Business</title>
+      <link>https://mattkopecki.github.com.com/post/iam-metrics-part-3/</link>
+      <pubDate>Thu, 31 May 2018 18:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/iam-metrics-part-3/</guid>
+      <description>It can be difficult to know what to measure at which stage of your IAM implementation.
+In Part 1 we talked about some IAM metrics you can use to measure Deployment Success and Risk Reduction and in Part 2 we talked about IAM metrics you can use to measure performance of your existing business processes.
+Without doubt, reducing risk and streamlining existing business operations are great benefits of IAM.If you can say we did more of these items in less time, there&amp;rsquo;s nothing bad about that!</description>
+    </item>
+    
+    <item>
+      <title>IAM Metrics Part 2 - Measuring Improvement in How We Do Business Now</title>
+      <link>https://mattkopecki.github.com.com/post/iam-metrics-part-2/</link>
+      <pubDate>Mon, 21 May 2018 16:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/iam-metrics-part-2/</guid>
+      <description>It can be difficult to know what to measure at which stage of your IAM implementation.
+In case you missed it, in Part 1 we talked about some IAM metrics you can use to measure Deployment Success and Risk Reduction. It makes a lot of sense to start there because it&amp;rsquo;s easy to see how IAM is providing tangible benefits to your organization even before it&amp;rsquo;s mature enough to noticeably affect your team&amp;rsquo;s day-to-day operations.</description>
+    </item>
+    
+    <item>
+      <title>IAM Metrics Part 1 - Measuring Deployment Success and Risk Reduction</title>
+      <link>https://mattkopecki.github.com.com/post/iam-metrics/</link>
+      <pubDate>Tue, 15 May 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/iam-metrics/</guid>
+      <description>Preface - Should We Measure? Of course it would be great if you started measuring something fancy like the average time to detect and resolve a native change across each connected target system. But before you can do that, you would need your IAM ecosystem to be mature enough that all connected targets were fully automated so no out-of-band provisioning was to be occurring, and you would need a dedicated team who monitored and responded to out-of-band changes.</description>
+    </item>
+    
+    <item>
+      <title>The Single Most Important Thing from the 2018 Verizon Data Breach Report</title>
+      <link>https://mattkopecki.github.com.com/post/2018-verizon-data-breach-report/</link>
+      <pubDate>Fri, 20 Apr 2018 14:05:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/2018-verizon-data-breach-report/</guid>
+      <description>Verizon has released its 2018 Data Breach Investigation Report (DBIR), which includes pages upon pages of analysis, reports, and graphs depicting cybersecurity trends for the past year.
+So, what&amp;rsquo;s the one most important thing that we can take from the report that&amp;hellip;
+ shows what tactics attackers are likely to use, should encourage executives to support much-needed security initiatives, and illustrates the importance of security?  It&amp;rsquo;s this chart: Less than half of the breaches featured hacking?</description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://mattkopecki.github.com.com/post/documentation/</link>
+      <pubDate>Mon, 16 Apr 2018 21:26:01 -0500</pubDate>
+      
+      <guid>https://mattkopecki.github.com.com/post/documentation/</guid>
+      <description>This post contains documentation for the setup of this blog. Hopefully this site will be so stable that I&amp;rsquo;ll totally forget how I set it up when I come back years from now to make a change&amp;hellip;
+Setup the development environment Create the directory structure.
+mkdir ~/Documents/Developer/mattkopecki.github.com cd ~/Documents/Developer/mattkopecki.github.com mkdir site  Install Hugo brew install hugo hugo version  Create the Github repository I already had a github repo set up for a user/organization page.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/</loc>
+    <lastmod>2018-08-04T14:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/</loc>
+    <lastmod>2018-08-04T14:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/brew/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/garage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/posture-tradeoff/</loc>
+    <lastmod>2018-08-04T14:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/iam-metrics-part-4/</loc>
+    <lastmod>2018-07-31T14:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/iam-metrics-part-3/</loc>
+    <lastmod>2018-05-31T18:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/iam-metrics-part-2/</loc>
+    <lastmod>2018-05-21T16:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/iam-metrics/</loc>
+    <lastmod>2018-05-15T14:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/2018-verizon-data-breach-report/</loc>
+    <lastmod>2018-04-20T14:05:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/post/documentation/</loc>
+    <lastmod>2018-04-16T21:26:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/tags/</loc>
+    <lastmod>2018-04-20T14:05:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/categories/cybersecurity/</loc>
+    <lastmod>2018-08-04T14:05:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/categories/dev/</loc>
+    <lastmod>2018-04-16T21:26:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/categories/enterprise/</loc>
+    <lastmod>2018-08-04T14:05:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/tags/hugo/</loc>
+    <lastmod>2018-04-16T21:26:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/categories/iam/</loc>
+    <lastmod>2018-07-31T14:05:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/tags/leadership/</loc>
+    <lastmod>2018-08-04T14:05:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/tags/metrics/</loc>
+    <lastmod>2018-07-31T14:05:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/tags/</loc>
+    <lastmod>2018-04-20T14:05:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/transactions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattkopecki.github.com.com/tags/web/</loc>
+    <lastmod>2018-04-16T21:26:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

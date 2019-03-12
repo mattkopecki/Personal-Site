@@ -22,6 +22,10 @@ http://latacora.singles/2018/04/03/cryptographic-right-answers.html
 
 - ABAC is great for authorization. But it is terrible for management, accountability, analytics, identity governance and other high-level methods of information security.
 
+- When that trust turns out to be misplaced, there is no recourse. If your bitcoin exchange gets hacked, you lose all of your money. If your bitcoin wallet gets hacked, you lose all of your money. If you forget your login credentials, you lose all of your money. If there's a bug in the code of your smart contract, you lose all of your money. If someone successfully hacks the blockchain security, you lose all of your money. In many ways, trusting technology is harder than trusting people. Would you rather trust a human legal system or the details of some computer code you don't have the expertise to audit?
+
+  == Same as the reason RBAC vs. ABAC
+
 **Big Data**
 
 - In general, a Data Lake is a good name. What do lakes do in real life? The just kind of sit there. Sometimes like 0.01% of it froths a little bit. If you don't have a data-driven challenge that needs to be solved beforehand, adding your data to a big lake won’t really move the needle.
